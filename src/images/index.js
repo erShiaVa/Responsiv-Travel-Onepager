@@ -5,4 +5,5 @@ export const images = {
     iceland_three: require("../images/iceland-three.jpg"),
     iceland_four: require("../images/iceland-four.jpg"),
     iceland_five: require("../images/iceland-five.jpg"),
+    iceland_six: require("../images/iceland-six.jpg"),
 };

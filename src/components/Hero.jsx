@@ -6,7 +6,7 @@ function Hero() {
     <div className='w-full h-screen'>
        <img 
             className='top-0 left-0 w-full h-screen object-cover' 
-            src={images.hero_img} 
+            src={images.iceland} 
             alt="#" 
         /> 
        <div className='bg-black/30 absolute top-0 left-0 w-full h-screen'/>
