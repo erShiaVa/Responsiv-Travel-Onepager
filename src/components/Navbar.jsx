@@ -22,7 +22,7 @@ function Navbar() {
         <div 
             className={
                 nav 
-                    ? 'fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/80 px-4 py-7 flex-col z-10 ease-in duration-500' 
+                    ? 'fixed text-gray-300 left-0 top-0 w-full h-screen bg-[] px-4 py-7 flex-col z-10 ease-in duration-500' 
                     : 'absolute top-0 h-screen left-[-100%] ease-in duration-500 z-10'
             }>
             <ul className='flex flex-col fixed w-full h-full items-center justify-center'>

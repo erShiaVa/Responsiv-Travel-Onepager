@@ -6,15 +6,15 @@ import { RxDotFilled } from 'react-icons/rx';
 function ImageSlider() {
     const slides = [
         {
-            url: 'https://cdn.pixabay.com/photo/2017/10/05/11/41/puffins-2819126_1280.jpg',
+            url: 'https://cdn.pixabay.com/photo/2017/01/20/14/58/iceland-1995039_1280.jpg',
             title: 'First',
         },
         {
-            url: 'https://cdn.pixabay.com/photo/2020/11/21/11/03/valley-5763670_1280.jpg',
+            url: 'https://cdn.pixabay.com/photo/2016/11/19/18/57/godafoss-1840758_1280.jpg',
             title: 'Second',
         },
         {
-            url: 'https://cdn.pixabay.com/photo/2015/05/26/21/32/control-785555_1280.jpg',
+            url: 'https://cdn.pixabay.com/photo/2016/07/23/23/08/ice-1537705_1280.jpg',
             title: 'Third',
         },
     ];
@@ -38,10 +38,14 @@ function ImageSlider() {
     }
 
   return (
-    <div className='max-w-[1400px] h-[650px] w-full m-auto py-16 px-4 relative group'>
+    <div className='max-w-[1200px] m-auto h-[40vw] relative group mb-20'>
         <div
-            className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
-            style={{backgroundImage: `url(${slides[currentIndex].url})`}}>
+            className='w-full h-full bg-center bg-cover duration-500'
+            style={{
+                    backgroundImage: `url(${slides[currentIndex].url})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    }}>
         </div>
         {/* left arrow */}
         <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 rounded-full 
@@ -60,7 +64,7 @@ function ImageSlider() {
             />
         </div>
 
-        <div className='flex top-4 justify-center py-2'>
+        <div className='flex top-4 justify-center py-2 text-white'>
             {slides.map((slide, slideIndex) => (
                 <div 
                     className='text-2xl cursor-pointer' 
