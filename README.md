@@ -1,1 +1,1 @@
-![Responsive Screen Mockup](https://github.com/erShiaVa/Responsiv-Travel-Onepager-React.js-TailwindCSS/assets/137787875/2441ba97-27b5-41f3-9954-d498febc53cd)
+![Responsive Screen Mockup](https://github.com/erShiaVa/Responsiv-Travel-Onepager-React.js-TailwindCSS/assets/137787875/1ce96028-5f75-4687-8b78-5fab86b317dc)
